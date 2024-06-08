@@ -2,7 +2,6 @@ import os
 import argparse
 
 def main():
-    # Set up argument parser
     parser = argparse.ArgumentParser(description="Concatenate files with a given extension into a single output file.")
     parser.add_argument('-e', '--extension', type=str, required=True, help="File extension to search for.")
     parser.add_argument('-o', '--output', type=str, default='output.txt', help="Output file name. Default is 'output.txt'.")
